@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Barangay TRX Seal</title>
+  <desc id="desc">Circular green and blue barangay-inspired seal for Barangay TRX</desc>
+  <defs>
+    <path id="topArc" d="M 140 450 A 310 310 0 0 1 760 450"/>
+    <path id="bottomArc" d="M 760 450 A 310 310 0 0 1 140 450"/>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B2E83"/>
+      <stop offset="100%" stop-color="#1573D6"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1FA463"/>
+      <stop offset="100%" stop-color="#66D08F"/>
+    </linearGradient>
+  </defs>
+  <circle cx="450" cy="450" r="420" fill="url(#ring)"/>
+  <circle cx="450" cy="450" r="312" fill="#FFFFFF"/>
+  <text font-family="Georgia, Times New Roman, serif" font-size="58" fill="#FFFFFF" letter-spacing="2.2">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">BARANGAY TRX</textPath>
+  </text>
+  <text font-family="Georgia, Times New Roman, serif" font-size="54" fill="#FFFFFF" letter-spacing="1.2">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">EST. 2026</textPath>
+  </text>
+  <g fill="#FFFFFF">
+    <path d="M132 668 L141 693 L168 693 L147 709 L155 735 L132 719 L109 735 L117 709 L96 693 L123 693 Z"/>
+    <path d="M768 668 L777 693 L804 693 L783 709 L791 735 L768 719 L745 735 L753 709 L732 693 L759 693 Z"/>
+  </g>
+  <g fill="#F5B700">
+    <path d="M438 172c14 8 32 14 33 32-6 10-4 22 3 34-4 17-3 34 2 50-4 15-14 23-29 30-18 1-36-6-49-19 0-14 11-24 11-38-3-21 9-43 29-51z"/>
+    <path d="M364 554c20 6 42 3 60-6 24 3 43 25 65 22 19 8 42 10 56 26 6 13 0 27-12 33-18 5-36-4-50-12-10 3-11 17-19 23-14 4-29-2-42 2-21 10-42 1-60-11-16-17-14-50 2-65z"/>
+    <path d="M561 495c24 6 48 16 62 38 21 18 35 44 34 72-7 16-26 27-40 36-13 15-31 21-50 24-13-6-14-23-18-35-9-15-14-31-10-48-10-16-9-36 0-52 5-15 8-32 22-35z"/>
+  </g>
+  <g transform="translate(450,450)">
+    <g id="hut" stroke="#0B2E83" stroke-width="4" fill="none">
+      <path d="M-38 -8 L0 -34 L38 -8 Z" fill="url(#green)"/>
+      <path d="M-34 -8 L34 -8" stroke-width="6"/>
+      <path d="M-18 10 C-7 20, 7 20, 18 10" stroke="#F5B700" stroke-width="4"/>
+    </g>
+    <use href="#hut" transform="translate(0,-188) scale(1.05)"/>
+    <use href="#hut" transform="rotate(60) translate(0,-188) scale(1.05)"/>
+    <use href="#hut" transform="rotate(120) translate(0,-188) scale(1.05)"/>
+    <use href="#hut" transform="rotate(180) translate(0,-188) scale(1.05)"/>
+    <use href="#hut" transform="rotate(240) translate(0,-188) scale(1.05)"/>
+    <use href="#hut" transform="rotate(300) translate(0,-188) scale(1.05)"/>
+    <path d="M-66 -86c14-11 31-13 46-4 10-14 31-16 43-3 5 6 7 14 7 22 8-7 19-10 30-5 14 7 17 24 15 38 13-2 27 5 33 18 8 17 1 41-17 49-8 5-11 13-17 19 6 15 8 31 3 47-8 19-26 33-46 35-18 1-38 0-57 0-34 2-67 0-101 1-13-1-24-11-26-23-3-18 6-34 12-50 3-15-4-31 2-46 5-13 18-21 31-22-2-14-2-30 8-41 9-10 26-12 38-5-2-13 2-27 10-36 4-5 10-8 16-11z" fill="#0B2E83"/>
+    <path d="M86 89c24-6 49 11 54 35-23 10-50 2-65-17-7-7-8-22 11-18z" fill="url(#green)"/>
+    <path d="M83 93c13 7 24 17 34 31" stroke="#C8F3D9" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <text x="0" y="28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="900" fill="#FFFFFF">TRX</text>
+  </g>
+</svg>

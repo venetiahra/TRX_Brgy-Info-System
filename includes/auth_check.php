@@ -1,0 +1,1 @@
+<?php require_once __DIR__ . '/../config/app.php'; if (!isset($_SESSION['user'])) { set_flash('warning', 'Please log in to continue.'); redirect('auth/login.php'); } ?>
